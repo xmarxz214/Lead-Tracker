@@ -5,30 +5,30 @@
 }
 
 html {
+	margin: 0 auto;
+	max-width: 400px;
 	scroll-behavior: smooth;
 	font-family: "Poppins";
-	font-size: rem;
+	color: #7b5b28;
 }
 
 body {
-	background: #5f9341;
-	max-width: 400px;
+	background: #f5ede0;
 	margin: 25px;
 }
 
 h1 {
 	margin: 20px 0;
 	text-align: center;
-	color: whitesmoke;
 }
 
 input {
-	color: #473c33;
+	color: #7b5b28;
 	font-size: 1rem;
 	width: 100%;
 	padding: 10px;
 	margin-bottom: 20px;
-	border: 2px solid #abc270;
+	border: 2px solid #efe2cd;
 	border-radius: 5px;
 }
 
@@ -41,23 +41,46 @@ button {
 	width: 100px;
 	padding: 5px;
 	background: whitesmoke;
-	color: green;
+	color: #7b5b28;
 	font-weight: bold;
-	border: 2px solid #fda769;
+	border: 2px solid #efe2cd;
 	border-radius: 5px;
 }
 
 button:hover {
-	background: #fda769;
+	background: #7b5b28;
 	color: whitesmoke;
 }
 
-ul {
-	background: whitesmoke;
+section {
+	background: #efe2cd;
 	margin-top: 20px;
 	list-style: none;
 	padding: 10px;
 	border-radius: 5px;
+}
+
+h2 {
+	text-align: center;
+}
+
+ul {
+	background: #efe2cd;
+
+	list-style: none;
+	border-radius: 5px;
+}
+
+ul label {
+	font-weight: bold;
+	text-align: center;
+	align-items: center;
+}
+
+ul div {
+	text-align: center;
+	font-weight: bold;
+	text-decoration: line-through;
 }
 
 li {
@@ -66,5 +89,6 @@ li {
 }
 
 li a {
-	color: #473c33;
+	word-break: break-all;
+	color: #7b5b28;
 }
